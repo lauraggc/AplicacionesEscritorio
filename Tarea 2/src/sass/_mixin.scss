@@ -1,0 +1,39 @@
+@mixin containerBasics {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+}
+
+@mixin nomargin {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin imgs {
+    max-width: 200px;
+    max-height: 280px;
+}
+
+@mixin desktop {
+    @media only screen and (max-width: 1024px){
+        @content;
+    }
+}
+
+@mixin bigDesktop {
+    @media only screen and (min-width: 1025px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin phone {
+    @media only screen and (max-width: 480px){
+        @content;
+    }
+}

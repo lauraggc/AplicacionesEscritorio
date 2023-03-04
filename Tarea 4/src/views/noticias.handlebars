@@ -1,0 +1,14 @@
+<br><p class="news">Noticias</p><hr>
+
+{{#each noticias.articles}}
+<div class="card">
+    <img src={{this.urlToImage}} alt="image" style="padding:13px; width:40%">
+  <div class="cardContainer">
+    <h4><b>Título: {{this.title}}</b></h4>
+    <p>Autor: {{this.author}}</p>
+    <p>Descripción: {{this.description}}</p>
+    <a href={{this.url}} target="_blank">URL: {{this.url}}</a>
+  </div>
+</div>
+<br>
+{{/each}}

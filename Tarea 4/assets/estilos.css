@@ -1,0 +1,91 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:350%;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+.card {
+    background-color: #d496c2;
+    color:#38192f;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border:#38192f 5px;
+}
+
+.linkRoot {
+    text-decoration: none;
+}
+
+a:link {
+    color:#60010f;
+}
+
+.cardContainer {
+    padding: 10px 30px;
+}
+
+.news {
+    color: #782b62;
+    text-align: center;
+    margin: auto;
+    text-shadow: #38192f 3px 3px;
+}
+
+nav {
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    height: 7.5%;
+    padding: 10px;
+    background-color: #AD458D;
+}
+
+.navTxt {
+    color: #FFDDF5;
+    text-align: center;
+    margin: auto;
+    text-shadow: #782B62 5px 5px;
+}
+
+input[type=text] {
+    margin: auto;
+    display: block;
+    height:40px;
+    width: 800px;
+    color:white;
+    background-color: #d496c2;
+    border: 5px #782B62;
+    border-radius: 50px;
+    box-shadow: #782B62 3.5px 3.5px;
+
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 25px;
+  } 
+
+hr {
+    border:0px;
+}
+
+img {
+    width:10%;
+}
+
+.searchBtn {
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: auto;
+    border: none;
+    display: block;
+
+  }
+  

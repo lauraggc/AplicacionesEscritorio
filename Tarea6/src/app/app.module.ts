@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { EducationComponent } from './education/education.component';
-import { CoursesComponent } from './courses/courses.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { EducationComponent } from './pages/education/education.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { NavComponent } from './layouts/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     EducationComponent,
     CoursesComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

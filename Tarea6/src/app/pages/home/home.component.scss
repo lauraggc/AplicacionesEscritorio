@@ -24,12 +24,18 @@ main {
     clear: both;
   }
 
+  .title {
+    color:rgb(115, 37, 37);
+    font-weight: bold;
+    font-size-adjust: initial;
+  }
 
   #homeTitle {
     font-size: 30px;
     color: brown;
     font-weight: bold;
     text-align: center;
+    //text-shadow: 1px 1px 2px pink, 0 0 1em brown, 0 0 0.2em brown;
   }
 
   .info {

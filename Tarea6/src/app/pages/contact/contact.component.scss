@@ -1,0 +1,63 @@
+.containerC {
+    width: 90%;
+    display: grid;
+    margin-left: 28%;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .containerC > div {
+    background-color: beige;
+    width: 100%;
+    height: 200px;
+    float: left; /* el primero será el de la izquierda y el último el de hasta la derecha */
+    border: solid 1px brown;
+    box-sizing: border-box;
+    box-shadow: 7px 7px brown;;
+  }
+
+  #homeTitle {
+    margin-top: 10%;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    background-color: antiquewhite;
+    //text-shadow: 1px 1px 2px pink, 0 0 1em brown, 0 0 0.2em brown;
+  }
+
+  main {
+    margin: 110px auto;
+    background-color: antiquewhite;
+    height: 100%;
+    text-align: center;
+  }
+
+  .info {
+    color: palevioletred;
+    font-size: 160%;
+  }
+  
+  .line {
+    border-top: 6px dotted rgb(115, 37, 37);
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .containerC {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    .containerC {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .containerC {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .containerC {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

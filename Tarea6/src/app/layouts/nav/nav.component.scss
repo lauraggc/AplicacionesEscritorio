@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    background-color: pink;
+    height: 65px;
+    color: beige;
+    font-weight: bold;
+    box-shadow: brown 3px 5px 6px;
+    text-align: center;
+    top:0px;
+    text-shadow: 1px 1px 2px brown, 0 0 1em brown, 0 0 0.2em brown;
+}
+
+.containerNav {
+    margin: auto;
+    position: fixed;
+}
+  
+.navBar .secciones {
+    display: inline-block;
+}
+  
+.secciones a {
+    color: beige;
+    font-size: 25px;
+    margin: 20px 30px;
+    letter-spacing: 3.5px;
+    text-decoration: none;
+}
+
+.secciones a:hover {
+    color: brown;
+}
